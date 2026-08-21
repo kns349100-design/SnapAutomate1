@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SnapAutomate — setup"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <Switch
+        android:id="@+id/autoAcceptSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto-accept friend requests" />
+
+    <Switch
+        android:id="@+id/autoMessageSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto-send message on new friend" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Message — {naam} likhoge to naam apne aap fit hoga" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Save Settings" />
+
+    <Button
+        android:id="@+id/openAccessibilityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Open Accessibility Settings" />
+
+    <Button
+        android:id="@+id/acceptAllButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="✅ Accept All Requests (1 tap)" />
+
+    <Button
+        android:id="@+id/messageAllButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="✉️ Message All New Friends (1 tap)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Setup: Save Settings dabao, phir Accessibility Settings me jaake 'SnapAutomate' ko ON karo.\n\nAccept All: Snapchat me Friend Requests screen khol ke button dabao.\nMessage All: Chat list screen khol ke button dabao (jaha 'New Friend' unread chats dikhte ho)."
+        android:textSize="13sp" />
+
+</LinearLayout>
+</ScrollView>
