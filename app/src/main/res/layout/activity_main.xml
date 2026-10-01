@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="22dp"
-            android:text="How to use:\n1. Turn on Accessibility for SnapAutomate.\n2. Turn Auto Accept ON and tap Save & Apply.\n3. Open Snapchat and go to your friend-request screen.\n4. Keep Snapchat in the foreground while requests are processed.\n\nThe app only targets visible, enabled controls labelled Accept/Accept Request in Snapchat."
+            android:text="How to use:\n1. Turn on Accessibility for SnapAutomate.\n2. Turn Auto Accept ON and tap Save &amp; Apply.\n3. Open Snapchat and go to your friend-request screen.\n4. Keep Snapchat in the foreground while requests are processed.\n\nThe app only targets visible, enabled controls labelled Accept/Accept Request in Snapchat."
             android:textSize="14sp" />
 
     </LinearLayout>
